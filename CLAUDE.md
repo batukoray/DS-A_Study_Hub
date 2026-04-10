@@ -4,7 +4,7 @@
 
 | Midterm | Date | Topics Covered |
 |---------|------|----------------|
-| Midterm 1 | Week 7 (23-27.03.2026) | Introduction, Algorithm Analysis, Linked Lists, Stack, Queue |
+| Midterm 1 | Week 7 (23-27.03.2026) | Introduction, Algorithm Analysis, Linked Lists, Stack |
 | Midterm 2 | Week 10 (13-17.04.2026) | Queue, Trees (continued), Hashing |
 | Midterm 3 | Week 14 (11-15.05.2026) | Heaps, Disjoint Sets, Graph Basics, DFS, BFS |
 

@@ -1,4 +1,4 @@
-# CS201 Data Structures — AI-Powered Study Hub
+# CS201 Data Structures — AI-Powered Study Hub by Batu Koray Masak
 ### Özyeğin University · CS201
 
 This repository is a self-contained study environment for Özyeğin University's CS201 Data Structures course. It pairs exam-style Java stub implementations and JUnit test suites with a pre-configured AI tutor persona — so that any agentic AI coding assistant (Claude Code, OpenAI Codex CLI, Gemini CLI, etc.) that reads the project automatically becomes a Socratic study partner rather than a solution dispenser.
@@ -59,7 +59,7 @@ claude
 
 Once inside the session, simply describe what you're working on:
 
-> "I'm implementing `bottomTwo()` in `Tree.java`. Here's my attempt — can you check it?"
+> "I'm implementing `bottomTwo()` in `Tree.java`. Here's my attempt, can you check it?"
 
 > "I'm stuck on the edge case for `enqueue` when the circular array is full."
 
@@ -100,13 +100,13 @@ These rules apply to all questions in this repository and reflect the actual exa
 
 ## Midterm Coverage
 
-| Midterm | Week | Topics |
-|---|---|---|
-| Midterm 1 | Week 7 (23–27 Mar 2026) | Introduction, Algorithm Analysis, Linked Lists, Stack, Queue |
-| Midterm 2 | Week 10 (13–17 Apr 2026) | Queue, Trees, Hashing |
-| Midterm 3 | Week 14 (11–15 May 2026) | Heaps, Disjoint Sets, Graph Basics, DFS, BFS |
+| Midterm | Week | Topics                                                 |
+|---|---|--------------------------------------------------------|
+| Midterm 1 | Week 7 (23–27 Mar 2026) | Introduction, Algorithm Analysis, Linked Lists, Stack  |
+| Midterm 2 | Week 10 (13–17 Apr 2026) | Queue, Trees, Hashing                                  |
+| Midterm 3 | Week 14 (11–15 May 2026) | Heaps, Disjoint Sets, Graph Basics, DFS, BFS           |
 
-> A topic introduced in the **same week** as a midterm is not included in that midterm.
+> A topic introduced in the **same week** as a midterm is **probably** not included in that midterm, but it's best practice to ask the course instructor.
 
 ---
 
