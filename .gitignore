@@ -1,0 +1,5 @@
+/target/
+/.idea/
+/mistakes.md
+/.claude/
+.DS_Store
