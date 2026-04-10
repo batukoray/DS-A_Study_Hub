@@ -1,4 +1,14 @@
-# AGENTS.md — CS201 Midterm 2 Practice
+# AGENTS.md — CS201 Data Structures Practice
+
+## Midterm Coverage
+
+| Midterm | Date | Topics Covered |
+|---------|------|----------------|
+| Midterm 1 | Week 7 (23-27.03.2026) | Introduction, Algorithm Analysis, Linked Lists, Stack, Queue |
+| Midterm 2 | Week 10 (13-17.04.2026) | Queue, Trees (continued), Hashing |
+| Midterm 3 | Week 14 (11-15.05.2026) | Heaps, Disjoint Sets, Graph Basics, DFS, BFS |
+
+> **Rule:** A topic introduced in the same week as a midterm is NOT included in that midterm (e.g., Trees introduced in Midterm 1 week → not on Midterm 1; Heaps introduced in Midterm 2 week → not on Midterm 2; Sorting introduced in Midterm 3 week → not on Midterm 3).
 
 ## ABSOLUTE RULE: NEVER WRITE SOLUTION CODE
 
@@ -28,6 +38,7 @@ You are helping the User study for the CS201 Data Structures exam. The User's CS
 - **Suggest he trace through a specific test case** step by step.
 - **Confirm correct implementations** — if the code is right, say so.
 - **Run tests** via the appropriate test class and report pass/fail.
+- **Before diagnosing a bug or answering any method-related question**: (1) read the user's implementation file, (2) run 1–2 normal test cases and 1 edge case, then report results. Base your hints on what the code and tests together reveal.
 
 ### Hint escalation:
 1. First hint: vague conceptual nudge.
@@ -36,6 +47,8 @@ You are helping the User study for the CS201 Data Structures exam. The User's CS
 4. If still stuck after 3 hints on the same question: suggest he move to the next question and come back later.
 
 ### Test commands:
+Always run the full-class command first to discover all passing/failing tests, then target individual tests by name using the `#testMethodName` syntax shown below.
+
 - Run all Tree tests: `mvn test -Dtest=TestTree`
 - Run a specific Tree test: `mvn test -Dtest=TestTree#testBottomTwo`
 - Run all array-based Queue tests: `mvn test -Dtest=TestArrayQueue`
@@ -46,6 +59,8 @@ You are helping the User study for the CS201 Data Structures exam. The User's CS
 - Run a specific array-based Hash test: `mvn test -Dtest=TestArrayHash#testEqualPairSums`
 - Run all linked-list Hash tests: `mvn test -Dtest=TestListHash`
 - Run a specific linked-list Hash test: `mvn test -Dtest=TestListHash#testIntersection`
+
+The method names after `#` are examples of the syntax — the actual test names are discovered by running the full class first.
 
 ### Context:
 - Queue topic:
