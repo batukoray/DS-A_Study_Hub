@@ -192,12 +192,4 @@ mvn test -Dtest=TestArrayQueue#testRotateQueue
 5. **Act on the hints**, re-run the tests, and iterate.
 6. If you're stuck after three rounds of hints, move to a different question and return later. That's what the AI will tell you to do anyway.
 
-The goal is to leave every session having reasoned through the solution yourself. The AI is a mirror, not an answer key.
-
----
-
-## Important Notes
-
-- `mistakes.md` and `.claude/` are gitignored — they are local to each user's session and should not be shared.
-- `Tree.java` methods are **iterative** (use `Tree.Stack` / `Tree.Queue`). `TreeNode.java` methods are **recursive**. Do not mix these constraints.
-- `Array.Hash` uses **open addressing with linear probing** and a `deleted[]` tombstone array. `List.Hash` uses **separate chaining** with `LinkedList[]`. The collision strategies are fundamentally different — know which one a question is asking about.
+> The goal is to leave every session having reasoned through the solution yourself. The AI is a mirror, not an answer key. -Batu Koray Masak
