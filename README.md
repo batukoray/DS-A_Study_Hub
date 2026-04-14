@@ -48,7 +48,7 @@ No additional dependency installation is needed — JUnit 4 and Hamcrest are bun
 
 ## Using the AI Tutor
 
-### Claude Code (recommended)
+### Claude Code
 
 [Claude Code](https://claude.ai/code) reads `CLAUDE.md` automatically on startup.
 
