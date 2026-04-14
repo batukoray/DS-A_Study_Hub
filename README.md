@@ -1,4 +1,4 @@
-# CS201 Data Structures — AI-Powered Study Hub by Batu Koray Masak
+# DS&A • AI-Powered Study Hub by Batu Koray Masak
 ### Özyeğin University · CS201
 
 This repository is a self-contained study environment for Özyeğin University's CS201 Data Structures course. It pairs exam-style Java stub implementations and JUnit test suites with a pre-configured AI tutor persona — so that any agentic AI coding assistant (Claude Code, OpenAI Codex CLI, Gemini CLI, etc.) that reads the project automatically becomes a Socratic study partner rather than a solution dispenser.
