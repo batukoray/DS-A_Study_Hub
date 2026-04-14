@@ -5,9 +5,13 @@ This repository is a self-contained study environment for Özyeğin University's
 
 ---
 
-## How It Works
+### Overview on how to use this repository to study for CS201
+![Overview Screenshot](https://raw.githubusercontent.com/batukoray/assets_of_mine/refs/heads/main/DS%26A_Overview.png)
+> We have the code editing in the middle, and terminal on the right hand side with OpenAI Codex (or you can have Claude Code or equivalent) open.
+> 
+> The file `AGENTS.md` (and its mirror `CLAUDE.md`) is the AI's instruction manual. The moment you open this project in an AI-aware tool, the assistant reads those instructions and operates under a strict set of rules:
 
-The file `AGENTS.md` (and its mirror `CLAUDE.md`) is the AI's instruction manual. The moment you open this project in an AI-aware tool, the assistant reads those instructions and operates under a strict set of rules:
+## How It Works
 
 - It will **never** write or complete your implementation for you.
 - It will **read your code**, **run tests**, and **give targeted hints** — in that order.
@@ -18,22 +22,6 @@ This mirrors the exam environment: you are expected to write the code, the AI ju
 
 ---
 
-## Prerequisites
-
-| Requirement | Version |
-|---|---|
-| Java | 8 or later |
-| Maven | 3.x |
-| An agentic AI tool | See options below |
-
-Verify your setup:
-
-```bash
-java -version
-mvn -version
-```
-
----
 
 ## Setup
 
@@ -41,8 +29,6 @@ mvn -version
 git clone https://github.com/batukoray/DS-A_Study_Hub.git
 cd DS-A_Study_Hub
 ```
-
-No additional dependency installation is needed — JUnit 4 and Hamcrest are bundled under `libs/`.
 
 ---
 
