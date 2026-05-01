@@ -143,4 +143,11 @@ public class Hash {
         return false;
     }
 
+    /** Write a static method in the Hash class (array implementation). This method should return true if any two distinct pairs multiplication in the array
+     have the same value. Your method should run in O(N^2)(quadratic) time. You may assume array has at least 2 items. You can
+     use at most one external hash.
+     **/
+    public static boolean equalPairMultiplication(int[] array) {
+        return true; }
+
 }

@@ -95,5 +95,7 @@ public class MaxDHeap extends DHeap {
      structures. You may assume there are more than 2 items in the heap. You should not use more than N comparisons (Sum of ifs else
      ifs elses is at most N).
      */
-    public int secondMinimum() { return 0;}
+    public int secondMinimum() {
+        return 0;
+    }
 }

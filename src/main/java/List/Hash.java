@@ -51,6 +51,7 @@ public class Hash {
      * in the hash table. Do not use any class or external methods except hashFunction.
      */
     public void deleteAll(int X){
+
     }
 
     /**
@@ -89,7 +90,7 @@ public class Hash {
      * there will be no collisions at all. Use an external linked list based hash table for checking collisions.
      */
     public static int minTableSize(int[] numbers){
-        return 0;
+        return 5;
     }
 
     /**
@@ -146,7 +147,7 @@ public class Hash {
      * number of elements in the  arrays. Do not use any external data structures or arrays except the resulting array
      * and an external hash table.
      */
-    public static int[] union(int[] list1, int[] list2){
+    public static int[] union(int[] list1, int[] list2) {
         return null;
     }
 

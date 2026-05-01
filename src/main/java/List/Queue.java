@@ -78,7 +78,6 @@ public class Queue {
     public Queue divideQueue(){
         return null;
     }
-
     /**
      * Write a method which constructs an array of list based queues by dividing the original queue into k equal parts.
      * The first, second, $\ldots$, $k$'th element of the original queue will be the first element of the first, second,
