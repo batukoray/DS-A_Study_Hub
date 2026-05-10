@@ -146,20 +146,5 @@ public class Stack {
      * stack. You should use linked list implementation of stack.
     */
     public void removeEvenIndexed() {
-        Stack temp = new Stack();
-        int index = 1;
-
-        while (!this.isEmpty()) {
-            int value = this.pop().getData();
-
-            if (index % 2 == 1) {
-                temp.push(new Node(value));
-            }
-            index++;
-        }
-
-        while (!temp.isEmpty()) {
-            this.push(temp.pop());
-        }
     }
 }

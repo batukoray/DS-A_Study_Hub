@@ -8,11 +8,11 @@ This repository is meant to teach the user everything about the data structures 
 
 ## Midterm Coverage
 
-| Midterm | Week | Topics                                                                              |
-|---------|------|-------------------------------------------------------------------------------------|
-| 1 | 7 (23–27 Mar) | Introduction, Algorithm Analysis, Linked Lists, Stack                               |
-| 2 | 10 (13–17 Apr) | Queue, Trees (Both Tree and TreeNode), Hashing (Array and Linked implementations)   |
-| 3 | 14 (11–15 May) | Heaps (MaxDHeap, MaxHeap, MinDHeap, MinHeap), Disjoint Sets, Graph Basics, DFS, BFS |
+| Midterm | Week | Topics                                                                   |
+|---------|------|--------------------------------------------------------------------------|
+| 1 | 7 (23–27 Mar) | Introduction, Algorithm Analysis, Linked Lists, Stack                    |
+| 2 | 10 (13–17 Apr) | Queue, Trees (Both Tree and TreeNode), Hashing (Array and Linked implementations) |
+| 3 | 14 (11–15 May) | Heaps (MaxDHeap, MaxHeap, MinDHeap, MinHeap), Disjoint Sets, Graphs      |
 
 A topic introduced in the same week as a midterm is not on that midterm.
 

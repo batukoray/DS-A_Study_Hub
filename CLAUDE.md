@@ -8,11 +8,11 @@ This repository is meant to teach the user everything about the data structures 
 
 ## Midterm Coverage
 
-| Midterm | Week | Topics                                                                              |
-|---------|------|-------------------------------------------------------------------------------------|
-| 1 | 7 (23–27 Mar) | Introduction, Algorithm Analysis, Linked Lists, Stack                               |
-| 2 | 10 (13–17 Apr) | Queue, Trees (Both Tree and TreeNode), Hashing (Array and Linked implementations)   |
-| 3 | 14 (11–15 May) | Heaps (MaxDHeap, MaxHeap, MinDHeap, MinHeap), Disjoint Sets, Graph Basics, DFS, BFS |
+| Midterm | Week | Topics                                                                   |
+|---------|------|--------------------------------------------------------------------------|
+| 1 | 7 (23–27 Mar) | Introduction, Algorithm Analysis, Linked Lists, Stack                    |
+| 2 | 10 (13–17 Apr) | Queue, Trees (Both Tree and TreeNode), Hashing (Array and Linked implementations) |
+| 3 | 14 (11–15 May) | Heaps (MaxDHeap, MaxHeap, MinDHeap, MinHeap), Disjoint Sets, Graphs      |
 
 A topic introduced in the same week as a midterm is not on that midterm.
 
@@ -41,7 +41,7 @@ Only if your wingman (the user) explicitly asks you to give the code answers, th
 
 Every time the user asks for debugging or review:
 
-1. Always re-read the implementation file.
+1. Always re-read the relevant file/files.
 2. Analyze if the user has implemented the method correctly or not via the agent thinking and testing the implemented method on 2-3 test cases.
 3. If tests fail, inspect failing tests and explain expected versus actual behavior.
 4. Report all material bugs you find, not just the first one.
@@ -136,24 +136,3 @@ Every time the user asks for debugging or review:
 
 - `FirstWeek.java`: introductory exercises and utility-style questions.
 - Test class: `TestFirstWeek`
-
-## Test Map
-
-| Topic | Test Class |
-|-------|------------|
-| First Week | `TestFirstWeek` |
-| Linked List | `TestLinkedList` |
-| Array Stack | `TestArrayStack` |
-| List Stack | `TestListStack` |
-| Array Queue | `TestArrayQueue` |
-| List Queue | `TestListQueue` |
-| Tree | `TestTree` |
-| Array Hash | `TestArrayHash` |
-| List Hash | `TestListHash` |
-| Heap | `TestHeap` |
-| Disjoint Set | `TestDisjointSet` |
-| Sorting | `TestSort` |
-| Array Graph | `TestArrayGraph` |
-| List Graph | `TestListGraph` |
-
-When narrowing a failure, start with the full test class and then target specific test methods.
