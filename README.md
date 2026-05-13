@@ -1,7 +1,9 @@
 # DS&A • AI-Powered Study Hub by Batu Koray Masak
 ### Özyeğin University · CS201
 
-This repository is a self-contained study environment for Özyeğin University's CS201 Data Structures course. It pairs exam-style Java stub implementations and JUnit test suites with a pre-configured AI tutor persona — so that any agentic AI coding assistant (Claude Code, OpenAI Codex CLI, Gemini CLI, etc.) that reads the project automatically becomes a Socratic study partner rather than a solution dispenser.
+This repository is a self-contained study environment for Özyeğin University's CS201 Data Structures course. It pairs exam-style Java stub implementations and JUnit test suites with a pre-configured AI tutor persona, so that any agentic AI coding assistant (Claude Code, OpenAI Codex CLI, Gemini CLI, etc.) that reads the project automatically becomes a Socratic study partner rather than a solution dispenser.
+
+Keep in mind that all implementations and methods belong to Prof. Olcay Taner Yıldız, Özyeğin University. This project is meant to be a wrapper for a better studying environment.
 
 ---
 
@@ -14,7 +16,7 @@ This repository is a self-contained study environment for Özyeğin University's
 ## How It Works
 
 - It will **never** write or complete your implementation for you.
-- It will **read your code**, **run tests**, and **give targeted hints** — in that order.
+- It will **read your code**, **run tests**, and **give targeted hints**, in that order.
 - It escalates hints gradually: vague nudge → specific line → behavioral explanation → "move on and come back."
 - It asks Socratic questions that force you to reason through the logic yourself.
 
@@ -174,7 +176,7 @@ mvn test -Dtest=TestArrayQueue#testRotateQueue
 1. **Pick a topic** from the midterm coverage table above.
 2. **Open the corresponding implementation file** (e.g., `Tree/Tree.java`).
 3. **Read the method stub** and the exam rules, then attempt an implementation on your own.
-4. **Ask the AI** to check your work — describe what you tried and where you're stuck.
+4. **Ask the AI** to check your work, describe what you tried and where you're stuck.
 5. **Act on the hints**, re-run the tests, and iterate.
 6. If you're stuck after three rounds of hints, move to a different question and return later. That's what the AI will tell you to do anyway.
 
