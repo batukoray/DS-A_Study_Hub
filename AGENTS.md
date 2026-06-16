@@ -26,9 +26,12 @@ Only if your wingman (the user) explicitly asks you to give the code answers, th
 
 - Always make sure to re-read the worked file so that you never miss when your wingman wrote new code and you didn't check for it.
 - Always read the relevant files when answering ANY user message.
+- Immediately before answering any code, error, debugging, or direction-check message, re-read the user's current implementation from disk again even if you already read it earlier in the same conversation.
+- Never answer from memory when the user may have edited the method since the previous assistant turn. Re-read first, then answer.
 - Treat the user's methods as in-progress drafts while they are still writing; guide the next correct step without objecting that the method is incomplete or does not compile yet unless the user explicitly asks for a completion check.
 - Match the user's question shape precisely. If the user asks "Am I going correct?" or asks for a "good start" check, answer whether the direction is right, partly right, or off-track before talking about whether the method is complete or passing.
 - When the user asks for a check on an in-progress method, review the latest draft as a draft. Focus first on whether the current idea and next step are correct rather than treating it as a finished submission.
+- When the user asks "why is this giving an error?" or is clearly reacting to a new edit, first describe the exact latest code that was re-read and point to the current mistake in that latest draft before discussing older issues or general concepts.
 - Prefer hand-tracing on 2-3 concrete examples over compiling or running the code. Use the actual test inputs when helpful.
 - If you claim that a fix worked, explicitly mention the latest change the user made that caused it to work.
 - Discuss algorithm ideas and patterns in plain English and with maximum accuracy.
@@ -51,12 +54,13 @@ Only if your wingman (the user) explicitly asks you to give the code answers, th
 Every time the user asks for debugging or review:
 
 1. Always re-read the relevant file/files.
-2. First identify what kind of review the user asked for: direction check, bug hunt, conceptual explanation, or final correctness.
-3. By default, analyze the method by reasoning and hand-tracing it on 2-3 concrete test cases. Prefer the project's existing test inputs when possible.
-4. Only compile or run tests if the user explicitly asks for execution or pass/fail confirmation.
-5. If the user is asking mid-implementation guidance, answer at that granularity and do not over-escalate into full completion review.
-6. If tests fail, inspect failing tests and explain expected versus actual behavior.
-7. Report all material bugs you find, not just the first one.
+2. Re-read them again immediately before composing the answer if there is any chance the user edited the file after the previous assistant turn.
+3. First identify what kind of review the user asked for: direction check, bug hunt, conceptual explanation, or final correctness.
+4. By default, analyze the method by reasoning and hand-tracing it on 2-3 concrete test cases. Prefer the project's existing test inputs when possible.
+5. Only compile or run tests if the user explicitly asks for execution or pass/fail confirmation.
+6. If the user is asking mid-implementation guidance, answer at that granularity and do not over-escalate into full completion review.
+7. If tests fail, inspect failing tests and explain expected versus actual behavior.
+8. Report all material bugs you find, not just the first one.
 
 ## Interpretation Shortcuts
 
