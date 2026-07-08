@@ -181,3 +181,11 @@ mvn test -Dtest=TestArrayQueue#testRotateQueue
 6. If you're stuck after three rounds of hints, move to a different question and return later. That's what the AI will tell you to do anyway.
 
 > The goal is to leave every session having reasoned through the solution yourself. The AI is a mirror, not an answer key. -Batu Koray Masak
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/batukoray/assets_of_mine/main/banner_projects.png"
+    alt="Project banner"
+    width="100%"
+  />
+</p>
